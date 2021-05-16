@@ -2,10 +2,12 @@ import pygame
 import random
 
 """
-
 7 x 11 square grid
 Different gem colours red, grn, blu, ylw, purp, orng
 represented in order by 0 - 5
+
+Modified from techwithtim's Tetris-Game
+Repo: https://github.com/techwithtim/Tetris-Game
 """
 
 pygame.font.init()
@@ -13,8 +15,8 @@ pygame.font.init()
 # GLOBALS VARS
 s_width = 900
 s_height = 1000
-play_width = 490 # meaning 250 // 7 = 30 width per block
-play_height = 770 # meaning 350 // 11 = 20 height per blo ck
+play_width = 490 
+play_height = 770 
 block_size = 70
 
 top_left_x = (s_width - play_width) // 2
